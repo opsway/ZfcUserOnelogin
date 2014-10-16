@@ -1,0 +1,26 @@
+{
+    "name": "opsway/zfc-user-onelogin",
+    "description": "Zend Framework 2 ZfcUser Onelogin SAML Authentication",
+    "type": "library",
+    "keywords": ["zf2","zfcuser","onelogin","zf2 module"],
+    "homepage": "https://github.com/opsway/ZfcUserOnelogin.git",
+    "license": "New BSD License",
+    "authors": [
+        {
+            "name": "Alexandr Vronskiy",
+            "email": "shandy.developer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+        "zf-commons/zfc-user": "1.*",
+        "onelogin/php-saml": ">=2.1.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-0": {
+            "ZfcUserOnelogin": "src/"
+        }
+    }
+}
